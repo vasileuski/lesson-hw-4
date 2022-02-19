@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Roboto, sans-serif;
+}
+
+.text {
+	background: #62D0DF;
+}
+
+.container {
+	max-width: 1060px;
+	margin: auto;
+}
+
+.text__title {
+	font-size: 36px;
+	font-weight: bold;
+	line-height: 27px;
+	color: #fff;
+	padding: 151px 0 75px;
+}
+
+.bold-text {
+	font-weight: bold;
+}
+
+.text__content {
+	font-size: 24px;
+	line-height: 35px;
+	color: #fff;
+	max-width: 555px;
+	padding-bottom: 92px;
+}
+
+.text__picture {
+	background-image: url("/thrivetalk/image/sport woman.png") no-repeat;
+}
