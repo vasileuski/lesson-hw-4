@@ -1,0 +1,58 @@
+body {
+	font-family: Roboto, sans-serif;
+}
+
+.guide {
+	background: rgba(204, 204, 204, 0.3);
+	padding: 76px 0 51px;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.container {
+	max-width: 1060px;
+	margin: auto;
+}
+
+.guide--secondary {
+	background: rgba(204, 204, 204, 0.6);
+}
+
+.guide--secondary .guide__content{
+	margin-left: 0;
+	margin-right: 385px;
+	text-align: right;
+}
+
+.guide--secondary .guide__picture {
+	float: right;
+}
+
+.guide__picture {
+	float: left;
+	width: 385px;
+}
+
+.guide__content {
+	margin-left: 385px;
+	padding: 70px 50px;
+}
+
+.guide__title {
+	margin-bottom: 31px;
+	font-weight: 700;
+	font-size: 36px;
+}
+
+.guide__descriprtion {
+	margin-bottom: 40px;
+	font-size: 36px;
+}
+
+.guide__link {
+	font-size: 17px;
+	font-weight: 700;
+	color: black;
+}
