@@ -8,7 +8,8 @@ body {
 }
 
 .text {
-	background: #62D0DF;
+	padding: 0 181px 0;
+	background: url(/thrivetalk/image/sport\ woman.png) no-repeat right , #62D0DF;
 }
 
 .container {
@@ -21,7 +22,7 @@ body {
 	font-weight: bold;
 	line-height: 27px;
 	color: #fff;
-	padding: 151px 0 75px;
+	padding: 130px 0 75px;
 }
 
 .bold-text {
@@ -34,8 +35,4 @@ body {
 	color: #fff;
 	max-width: 555px;
 	padding-bottom: 92px;
-}
-
-.text__picture {
-	background-image: url("/thrivetalk/image/sport woman.png") no-repeat;
 }
