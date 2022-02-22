@@ -2,6 +2,7 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	font-size: 0;
 }
 
 .container {
@@ -11,6 +12,8 @@
 
 .content {
 	background-color: #191919;
+	font-family: Roboto, sans-serif;
+	min-height: 1541px;
 }
 .container {
 	padding-top: 180px;
@@ -33,7 +36,6 @@
 }
 
 .content__title {
-	font-family: Roboto;
 	font-size: 64px;
 	font-weight: 400;
 	line-height: 68px;
@@ -43,7 +45,6 @@
 
 .content__about {
 	max-width: 567px;
-	font-family: Roboto;
 	font-size: 20px;
 	line-height: 28px;
 	color: #FFFFFF;
@@ -51,7 +52,6 @@
 }
 .content__email {
 	padding: 11px 108px;
-	font-family: Roboto;
 	font-size: 20px;
 	line-height: 28px;
 	color: #FFFFFF;
@@ -61,6 +61,42 @@
 	border-radius: 12.7918px;
 	text-align: center;
 }
+
 .content__cards {
 	margin: 0 -80px 284px -80px;
+}
+
+.content__card {
+	display: inline-block;
+	margin-right: 65px;
+}
+
+.content__card:last-child {
+	margin-right: 0;
+}
+
+.content__card__text {
+	text-align: center;
+	font-size: 64px;
+	line-height: 68px;
+	text-align: center;
+	color: #FFFFFF;
+	border: 2px solid #FFFFFF;
+	border-radius: 3.99744px;
+	padding: 200px 0 215px 0;
+}
+
+.content__card:nth-child(1) {
+	background: url(/Stir/img/dogs.png) no-repeat;
+	padding: 38px 23px;
+}
+
+.content__card:nth-child(2) {
+	background: url(/Stir/img/cactus.png) no-repeat;
+	padding: 38px 23px;
+}
+
+.content__card:nth-child(3) {
+	background: url(/Stir/img/man.png) no-repeat;
+	padding: 38px 23px;
 }
