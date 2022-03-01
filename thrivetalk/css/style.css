@@ -9,7 +9,7 @@ body {
 
 .text {
 	padding: 0 181px 0;
-	background: no-repeat url(/thrivetalk/image/sport\ woman.png) right, #62D0DF;
+	background: no-repeat url(../image/sport\ woman.png) right, #62D0DF;
 }
 
 .container {

@@ -2,7 +2,6 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-size: 0;
 }
 
 .container {
@@ -23,9 +22,9 @@
 	margin-bottom: 30px;
 }
 
-.content__link--text {
+.content__link--oval-button {
 	padding: 8px 13px;
-	font-family: Roboto;
+	font-family: Roboto, sans-serif;
 	font-weight: bold;
 	font-size: 12px;
 	line-height: 12px;
@@ -75,7 +74,7 @@
 	margin-right: 0;
 }
 
-.content__card__text {
+.content__card-text {
 	text-align: center;
 	font-size: 64px;
 	line-height: 68px;
@@ -87,16 +86,16 @@
 }
 
 .content__card:nth-child(1) {
-	background: url(/Stir/img/dogs.png) no-repeat;
+	background: url(../img/dogs.png) no-repeat;
 	padding: 38px 23px;
 }
 
 .content__card:nth-child(2) {
-	background: url(/Stir/img/cactus.png) no-repeat;
+	background: url(../img/cactus.png) no-repeat;
 	padding: 38px 23px;
 }
 
 .content__card:nth-child(3) {
-	background: url(/Stir/img/man.png) no-repeat;
+	background: url(../img/man.png) no-repeat;
 	padding: 38px 23px;
 }
